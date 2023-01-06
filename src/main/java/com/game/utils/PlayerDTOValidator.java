@@ -1,6 +1,6 @@
 package com.game.utils;
 
-import com.game.dto.PlayerDTO;
+import com.game.entity.PlayerDTO;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;

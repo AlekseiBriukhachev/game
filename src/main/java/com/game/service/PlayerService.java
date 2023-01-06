@@ -1,6 +1,6 @@
 package com.game.service;
 
-import com.game.model.Player;
+import com.game.entity.Player;
 
 import java.util.List;
 import java.util.Map;

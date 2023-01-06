@@ -1,7 +1,7 @@
 package com.game.controller;
 
-import com.game.dto.PlayerDTO;
-import com.game.model.Player;
+import com.game.entity.PlayerDTO;
+import com.game.entity.Player;
 import com.game.service.PlayerService;
 import com.game.utils.PlayerDTOValidator;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -75,7 +75,7 @@ public class PlayerController {
             return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
         }
         if (!playerService.getPlayerById(Long.parseLong(sid)).isPresent()){
-            return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
 
         playerService.removePlayer(Long.parseLong(sid));

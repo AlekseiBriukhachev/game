@@ -1,7 +1,7 @@
 package com.game.service;
 
 import com.game.controller.PlayerOrder;
-import com.game.model.Player;
+import com.game.entity.Player;
 import com.game.repository.PlayerRepository;
 import com.game.specifications.PlayerSpecification;
 import org.springframework.beans.factory.annotation.Autowired;

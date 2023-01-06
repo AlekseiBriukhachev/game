@@ -2,11 +2,10 @@ package com.game.specifications;
 
 import com.game.entity.Profession;
 import com.game.entity.Race;
-import com.game.model.Player;
+import com.game.entity.Player;
 import org.springframework.data.jpa.domain.Specification;
 
 import javax.persistence.criteria.Predicate;
-import javax.xml.crypto.Data;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
