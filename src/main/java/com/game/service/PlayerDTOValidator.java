@@ -1,4 +1,4 @@
-package com.game.utils;
+package com.game.service;
 
 import com.game.entity.PlayerDTO;
 import org.springframework.stereotype.Component;

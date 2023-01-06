@@ -1,4 +1,4 @@
-package com.game.specifications;
+package com.game.service;
 
 import com.game.entity.Profession;
 import com.game.entity.Race;

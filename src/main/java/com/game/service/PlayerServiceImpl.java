@@ -3,14 +3,12 @@ package com.game.service;
 import com.game.controller.PlayerOrder;
 import com.game.entity.Player;
 import com.game.repository.PlayerRepository;
-import com.game.specifications.PlayerSpecification;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 
-import javax.persistence.EntityManager;
 import javax.transaction.Transactional;
 import java.util.List;
 import java.util.Map;
@@ -18,7 +16,6 @@ import java.util.Optional;
 
 @Service
 public class PlayerServiceImpl implements PlayerService {
-    private EntityManager entityManager;
     private final PlayerRepository playerRepository;
 
     @Autowired

@@ -1,7 +1,5 @@
 package com.game.entity;
 
-import com.game.entity.Profession;
-import com.game.entity.Race;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.lang.NonNull;
 
@@ -100,14 +98,6 @@ public class Player {
 
     public void setLevel(Integer level) {
         this.level = level;
-    }
-
-    public Integer getUntilNextLevel() {
-        return untilNextLevel;
-    }
-
-    public void setUntilNextLevel(Integer untilNextLevel) {
-        this.untilNextLevel = untilNextLevel;
     }
 
     public Date getBirthday() {
